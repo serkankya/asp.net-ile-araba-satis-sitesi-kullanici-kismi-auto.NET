@@ -1,2 +1,2 @@
 # asp.net-ile-araba-satis-sitesi-kullanici-kismi-auto.NET
-Bu projede asp.net ile kullanıcıların araçlarını rahatlıkla paylaşabilecekleri bir web sitesi yaptım. Bu dosyada yalnızca user.master yani kullanıcı kısmı mevcuttur. Admin.master eklenmemiştir.// Only the user.master part has been added.The admin part is not shared in this file.
+Bu projede asp.net ile kullanıcıların araçlarını rahatlıkla paylaşabilecekleri bir web sitesi yaptım. PROJE BACKEND AĞIRLIKLIDIR, TASARIMA FAZLA DİKKAT EDİLMEMİŞTİR. Bu dosyada yalnızca user.master yani kullanıcı kısmı mevcuttur. Admin.master eklenmemiştir.// Only the user.master part has been added.The admin part is not shared in this file.THE PROJECT IS BACKEND-WEIGHT, NO ATTENTION TO THE DESIGN.
