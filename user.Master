@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user.master.cs" Inherits="auto.net_Asp.net.user" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>auto.NET</title>
+    <link href="div.css" rel="stylesheet" />
+    <link href="animasyon.css" rel="stylesheet" />
+    <link href="table.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+    <style type="text/css">
+        .auto-style2 {
+            width: 800px;
+            height: 60px;
+            position: fixed;
+            left: 300px;
+            background-color:#dcd0d0;
+            top: 150px;
+        }
+
+        .auto-style3 {
+            height: 23px;
+            text-align: center;
+            width: 100px;
+            
+        }
+
+        .resim{
+            position: fixed;
+            left: 300px;
+        }
+
+        .resimYazi{
+            position: fixed;
+            left: 1100px;
+            top:95px;
+        }
+        .auto-style4 {
+            color: #000000;
+        }
+        .auto-style5 {
+            height: 23px;
+            text-align: center;
+            width: 100px;
+            color: #000000;
+        }
+        
+        
+        
+        </style>
+
+
+
+</head>
+<body style="background-color: white;">
+    <form id="form1" runat="server">
+        <div class="topDiv">
+           <a href="main.aspx"> <asp:Image ID="Image1" runat="server" Height="144px" ImageUrl="~/resimler/auto .NET.png" Width="317px" Class="resim" /></a>
+            <a href="ilanPaylas.aspx"><asp:Image ID="Image2" runat="server" Height="75px" Width="200px" ImageUrl="~/resimler/ARACINI KOLAYCA SAT!.png" class="resimYazi"/></a>
+        </div>
+        <div class="menuDiv">
+            <table class="auto-style2">
+                <tr>
+                    <td class="auto-style5" style="font-size: medium; border-left-style: inset; border-right-style: none; border-right-width: thin; border-left-width: thin; border-right-color: #999999; border-left-color: #999999;"><strong><a class="menuTablo" href="main.aspx"><span class="auto-style4">ANA SAYFA</span></a></strong></td>
+                    <td class="auto-style3" style="font-size: medium; border-left-style: inset; border-right-style: none; border-right-width: thin; border-left-width: thin; border-right-color: #999999; border-left-color: #999999;"><strong><a class="menuTablo" href="gununAraci.aspx"><span class="auto-style4">GÜNÜN ARACI</span></a></strong></td>
+                    <td class="auto-style3" style="font-size: medium; border-left-style: inset; border-right-style: none; border-right-width: thin; border-left-width: thin; border-right-color: #999999; border-left-color: #999999;"><strong><a class="menuTablo" href="ilanPaylas.aspx"><span class="auto-style4">İLAN PAYLAŞ</span></a></strong></td>
+                    <td class="auto-style3" style="font-size: medium; border-left-style: inset; border-right-style: none; border-right-width: thin; border-left-width: thin; border-right-color: #999999; border-left-color: #999999;"><strong><a class="menuTablo" href="hakkimizda.aspx"><span class="auto-style4">HAKKIMIZDA</span></a></strong></td>
+                    <td class="auto-style3" style="font-size: medium; border-left-style: inset; border-right-style: inset; border-right-width: thin; border-left-width: thin; border-right-color: #000000; border-left-color: #000000;"><strong><a class="menuTablo" href="iletisim.aspx"><span class="auto-style4">İLETİŞİM</span></a></strong></td>
+                </tr>
+            </table>
+        </div>
+        <div class="boslukDiv"></div>
+        
+        <div style="height:20px; margin-top:190px; width:650px;">  </div>
+
+        <div class="kategoriDiv">
+            ARAÇ KATEGORİLERİ<br />
+            <br />
+            <div style="height:auto;">
+            <asp:DataList ID="DataList1" runat="server" Width="250px"  >
+                <ItemTemplate>
+                    <div >
+                       <a href="kategoriDetay.aspx?kategoriID=<%#Eval("kategoriID") %>"> <asp:Label CssClass="kategoriKutu" ID="Label1" Width="170px" runat="server" Text='<%# Eval("kategoriAd") %>'></asp:Label></a>
+                        <br />
+                    </div>
+                </ItemTemplate>
+            </asp:DataList>
+            </div>
+            <div style="height:20px;"></div>
+            <div style="height:20px;background-color:white"></div>
+            </div>
+
+        <div class="contentDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
+
+

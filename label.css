@@ -1,0 +1,30 @@
+﻿.marka {
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #0000FF;
+    text-align: left;
+}
+
+.model {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #0000FF;
+}
+
+.veri {
+    font-size: large;
+    font-weight: 500
+}
+
+.siteYazi {
+    font-size: x-large;
+    font-weight: 800;
+}

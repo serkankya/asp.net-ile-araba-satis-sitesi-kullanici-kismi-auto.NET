@@ -1,0 +1,56 @@
+﻿.topDiv {
+    height: 150px;
+    width: auto;
+    top: 0;
+    position: fixed;
+    background-color: #F0F0F0;
+    left: 0;
+    right: 0;
+}
+
+.menuDiv {
+    height: 60px;
+    width: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #dcd0d0;
+    top: 150px;
+    
+}
+
+.kategoriDiv {
+    height: auto;
+    width: 250px;
+    background-color: #fc9d62;
+    margin-left: 295px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    float: left;
+    border-radius: 7px;
+}
+
+.contentDiv {
+    height: auto;
+    width: 485px;
+    background-color: #dcd0d0;
+    margin-left: 605px;
+    margin-top:20px;
+    border-radius:5px;
+}
+
+.boslukDiv {
+    height: 1px;
+    width: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    top: 210px;
+}
+
+.dataList {
+    border-radius: 15px;
+    
+}

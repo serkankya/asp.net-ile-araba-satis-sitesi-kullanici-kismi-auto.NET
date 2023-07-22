@@ -1,0 +1,12 @@
+﻿.kategoriKutu {
+    border-style: inset;
+    border-width: thin;
+    border-color: #F0F0F0;
+    font-size: larger;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-width: initial;
+    border-bottom-color: #fc9d62;
+    border-bottom-width: initial;
+
+}

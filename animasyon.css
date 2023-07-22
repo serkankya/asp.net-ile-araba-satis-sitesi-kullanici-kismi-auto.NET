@@ -1,0 +1,25 @@
+﻿a:link{
+    text-decoration:none;
+}
+
+
+.menuTablo:hover{
+    font-size: 21px;
+    color: red;
+}
+
+.btn1 {
+    border-radius: 10px;
+    background-color: #dcd0d0;
+    width : 75px;
+    height : 30px;
+}
+
+.tb1{
+    background-color :orange;
+    height:30px;
+    width:75px;
+    border-radius:7px;
+    border-block:1px;
+    border-block-color:black;
+}
